@@ -1,18 +1,13 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Me
+permalink: /about-me/
 ---
+James Tibbets has over seven years experience in computer repair and web design. James studied Computer Science at Blue Mountain Community College in Pendleton, Oregon and has completed coursework on Microsoft Virtual Academy including:
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+* Software Development Fundamentals
+* Advanced Tools & Scripting with PowerShell 3.0
+* Windows 10 and Office 2016: The Cloud-Ready Desktop
+* Windows Azure
+* Office Guides: Exchange Hybrid Deployment with Office 365
+* Licensing Programs’ Fundamentals
