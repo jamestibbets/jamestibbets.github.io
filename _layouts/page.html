@@ -1,7 +1,18 @@
 ---
-layout: default
+layout: page
 ---
-
-<h2>{{ page.title }}</h2>
-   
-    {{ content }}
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	{% include header.html %}
+	<div class="container">
+        <div class="row">
+            <div class="col-md-8 content">
+		      {{ content }}
+            </div>
+            <div class="col-md-4 sidebar">
+                {% include sidebar.html %}
+            </div>
+        </div>
+	</div>
+    {% include footer.html %}

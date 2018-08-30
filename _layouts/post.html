@@ -1,8 +1,11 @@
 ---
-layout: default
+layout: post
 ---
-
-<h2>{{ page.title }}</h2>
-<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-
-{{ content }}
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	{% include header.html %}
+	<div class="container">
+		{{ content }}
+	</div>
+    {% include footer.html %}
