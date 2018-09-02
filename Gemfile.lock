@@ -1,7 +1,7 @@
 PATH
-  remote: .
+  remote: /home/jim/myGems/foundation-1
   specs:
-    T (0.1.0)
+    foundation-1 (0.1.0)
       jekyll (~> 3.8)
 
 GEM
@@ -33,6 +33,8 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-feed (0.10.0)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-watch (2.0.0)
@@ -47,7 +49,6 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
-    rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -64,9 +65,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  T!
-  bundler (~> 1.16)
-  rake (~> 12.0)
+  foundation-1!
+  jekyll (~> 3.8.3)
+  jekyll-feed (~> 0.6)
+  tzinfo-data
 
 BUNDLED WITH
    1.16.4

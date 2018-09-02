@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: default
 title: About Me
 permalink: /about-me/
 ---
 
-My name is James Tibbets and I operate Technology Solutions in Grant County, Oregon. I have over seven years experience in computer repair and web design. I studied Computer Science at Blue Mountain Community College in Pendleton, Oregon and have completed coursework on Microsoft Virtual Academy including:
+## About Me
+<img class="responsive" src="{{ site.url }}/img/james.jpg" style="width:125px;height:auto;float:right;">My name is James Tibbets and I operate Technology Solutions in Grant County, Oregon. I have over seven years experience in computer repair and web design. I studied Computer Science at Blue Mountain Community College in Pendleton, Oregon and have completed coursework on Microsoft Virtual Academy including:
 
 * Software Development Fundamentals
 * Advanced Tools & Scripting with PowerShell 3.0

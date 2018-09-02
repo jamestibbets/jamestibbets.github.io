@@ -16,17 +16,18 @@
 title: James Tibbets
 email: james.tibbets@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Computer Repair in Grant County, Oregon.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jamestibbets.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  
+  Affordable computer repair in Grant County, Oregon. With over seven years’ experience in the field, I can help with whatever problems you are facing.
+url: "http://jamestibbets.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_url: https://facebook.com/jamestibbets97801
+twitter_url: https://twitter.com/jimbotibbets
+linkedin_url: https://www.linkedin.com/in/james-tibbets-41351a126
+youtube_url: https://www.youtube.com/channel/UCgTsBFxns6nFQwncldrrMqg
 
 # Build settings
 markdown: kramdown
-
+theme: "foundation-1"
 plugins:
-
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
