@@ -1,0 +1,21 @@
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+            <ul>
+                <li><a href="{{ site.url }}">Home</a></li>
+                {% for page in site.pages %}{% if page.title %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endif %}{% endfor %}
+            </ul>
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+            <div class="site-title">
+                <div class="grid-container">
+                    <div class="grid-x grid-margin-x">
+                        <div class="cell medium-12">
+                    
+                            <a href="#" data-toggle="offCanvas"><i class="fas fa-bars"></i></a>
+                            <div style="float: right" class="logo"><img height="30px" width="30px" src="/assets/favicon.png"><a href="{{ site.url }}">{{ site.title }}</a></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+body {
+    background-image: url("../painted-hills-dark.jpg");
+    background-attachment: fixed;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+.off-canvas {
+    background-color: gray;
+}
+.off-canvas a {
+    color: white;
+}
+.off-canvas a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+.off-canvas ul {
+    list-style: none;
+}
+.logo-card {
+    text-align: center;
+}
+.off-canvas-content i {
+    margin-right: 13px;
+    margin-top: 13px;
+    color: white;
+}
+.sidebar i {
+    margin: 0;
+    font-size: 3em;
+}
+.off-canvas-content a { 
+    color: lightgray;
+}
+.off-canvas-content a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.grid-container {
+    color: white;
+}
+.site-title {
+    font-size: 2em;
+}
+.site-title img {
+    margin-right: 13px;
+}
